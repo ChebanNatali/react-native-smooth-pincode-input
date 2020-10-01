@@ -191,7 +191,7 @@ class SmoothPinCodeInput extends Component {
                       alignItems: 'center',
                       justifyContent: 'center',
                     },
-                    cellStyle,
+                    value.length<=idx?cellStyleFocused:  cellStyle,
                     cellFocused ? cellStyleFocused : {},
                     filled ? cellStyleFilled : {},
                   ]}
